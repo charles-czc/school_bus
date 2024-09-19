@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>班车预约</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <div id="current-full-date"></div>
+        <div class="image-section">
+            <img id="img2"  src="top.png" alt="Image 1">
+        </div>
+        <textarea id="free-input-1" placeholder="22：05" rows="1" cols="5"></textarea>
+        <textarea id="free-input-2" placeholder="" rows="1" cols="5"></textarea>
+        <textarea id="free-input-3" placeholder="玉泉校区教二南侧" rows="1" cols="5"></textarea>
+        <textarea id="free-input-4" placeholder="紫金港校区" rows="1" cols="5"></textarea>
+        <textarea id="free-input-5" placeholder="教师7号班车" rows="1" cols="5"></textarea>
+        <!-- Main Content Section -->
+        <main>
+            <div class="text-section">
+                <r> <img id="img3" src="refresh.png" alt="Refresh Icon" class="refresh-icon"> </r>
+                
+                <div class="date-time" id="date-time">
+                    <div id="current-date"></div>
+                    <div id="current-time"></div>
+                </div>
+                <p>当前时段趟次</p>
+                <!-- Add more text as needed -->
+            </div>
+            
+            
+            
+            <div class="image-section">
+                <img id="img1"  src="QRcode.png" alt="Image 1">
+                <!-- Add more images as needed -->
+            </div>
+
+            <footer>
+                <button id="confirm-btn">确认上车</button>
+            </footer>
+        </main>
+        
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
