@@ -178,7 +178,7 @@ footer {
     top: 7.75rem; /* 设置垂直位置 */
     left: 56%; /* 水平方向定位到容器的中间 */
     transform: translateX(-50%); /* 水平居中 */
-    width: 7rem; /* 设置宽度 */
+    width: 5rem; /* 设置宽度 */
     height: 1rem; /* 设置高度 */
     border: 0rem solid #ffffff; 
     border-radius: 0rem; /* 保持0 */
