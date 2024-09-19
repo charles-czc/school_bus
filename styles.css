@@ -107,7 +107,7 @@ footer {
     top: 140px; /* 距离页面顶部 50px */
     left: 60px; /* 距离页面右侧 20px */
     width: 100px; /* 自由输入区域的宽度 */
-    height: 32px; /* 自由输入区域的高度 */
+    height: 40px; /* 自由输入区域的高度 */
     padding: 0px; /* 内边距 */
     border: 0px solid #ffffff; /* 边框颜色为灰色 */
     border-radius: 0px; /* 圆角 */
@@ -125,7 +125,7 @@ footer {
     top: 140px; /* 距离页面顶部 100px */
     right: 45px; /* 距离页面右侧 45px */
     width: 100px; /* 自由输入区域的宽度 */
-    height: 32px; /* 自由输入区域的高度 */
+    height: 40px; /* 自由输入区域的高度 */
     padding: 0px; /* 内边距 */
     border: 0px solid #ffffff; /* 边框颜色为灰色 */
     border-radius: 0px; /* 圆角 */
@@ -142,7 +142,7 @@ footer {
     top: 180px; /* 距离页面顶部 50px */
     left: 50px; /* 距离页面右侧 20px */
     width: 120px; /* 自由输入区域的宽度 */
-    height: 40px; /* 自由输入区域的高度 */
+    height: 50px; /* 自由输入区域的高度 */
     padding: 0px; /* 内边距 */
     border: 0px solid #ffffff; /* 边框颜色为灰色 */
     border-radius: 0px; /* 圆角 */
@@ -159,7 +159,7 @@ footer {
     top: 180px; /* 距离页面顶部 100px */
     right: 45px; /* 距离页面右侧 45px */
     width: 120px; /* 自由输入区域的宽度 */
-    height: 40px; /* 自由输入区域的高度 */
+    height: 50px; /* 自由输入区域的高度 */
     padding: 0px; /* 内边距 */
     border: 0px solid #ffffff; /* 边框颜色为灰色 */
     border-radius: 0px; /* 圆角 */
