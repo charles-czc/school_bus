@@ -8,43 +8,46 @@
 </head>
 <body>
     <div class="container">
-        <!-- Header Section -->
+        <!-- 日期显示 -->
         <div id="current-full-date"></div>
+    
+        <!-- 顶部图片 -->
         <div class="image-section">
-            <img id="img2"  src="top.png" alt="Image 1">
+            <img id="img2" src="top.png" alt="Image 1">
         </div>
-        <textarea id="free-input-1" placeholder="22：05" rows="1" cols="5"></textarea>
-        <textarea id="free-input-2" placeholder="" rows="1" cols="5"></textarea>
-        <textarea id="free-input-3" placeholder="玉泉校区教二南侧" rows="1" cols="5"></textarea>
-        <textarea id="free-input-4" placeholder="紫金港校区" rows="1" cols="5"></textarea>
-        <textarea id="free-input-5" placeholder="教师7号班车" rows="1" cols="5"></textarea>
-        <!-- Main Content Section -->
+    
+        <!-- 输入框 -->
+        <textarea id="free-input-1" placeholder="22：05" rows="1"></textarea>
+        <textarea id="free-input-2" placeholder="" rows="1"></textarea>
+        <textarea id="free-input-3" placeholder="玉泉校区教二南侧" rows="1"></textarea>
+        <textarea id="free-input-4" placeholder="紫金港校区" rows="1"></textarea>
+        <textarea id="free-input-5" placeholder="教师7号班车" rows="1"></textarea>
+    
+        <!-- 主体内容 -->
         <main>
             <div class="text-section">
-                <r> <img id="img3" src="refresh.png" alt="Refresh Icon" class="refresh-icon"> </r>
-                
+                <r>
+                    <img id="img3" src="refresh.png" alt="Refresh Icon" class="refresh-icon">
+                </r>
+    
                 <div class="date-time" id="date-time">
                     <div id="current-date"></div>
                     <div id="current-time"></div>
                 </div>
                 <p>当前时段趟次</p>
-                <!-- Add more text as needed -->
             </div>
-            
-            
-            
+    
+            <!-- 二维码图片 -->
             <div class="image-section">
-                <img id="img1"  src="QRcode.png" alt="Image 1">
-                <!-- Add more images as needed -->
+                <img id="img1" src="QRcode.png" alt="Image 1">
             </div>
-
+    
+            <!-- 底部按钮 -->
             <footer>
                 <button id="confirm-btn">确认上车</button>
             </footer>
         </main>
-        
-
-    </div>
+    </div>    
 
     <script src="script.js"></script>
 </body>
